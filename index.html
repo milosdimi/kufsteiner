@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gebäudereinigung Kufstein - Kufsteiner Denkmal & Fassaden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professionelle Gebäudereinigung in Kufstein, Tirol. Über 20 Jahre Erfahrung in Denkmal-, Fassaden- und Unterhaltsreinigung.">
+    <meta name="keywords"
+        content="Gebäudereinigung, Kufstein, Denkmalreinigung, Fassadenreinigung, Unterhaltsreinigung, Tirol">
+    <meta name="author" content="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/trusty.png">
+    <link rel="apple-touch-icon" href="img/trusty.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/tempus-dominus.min.css"> <!-- Lokal, kopiert -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/css/tempus-dominus.min.css"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/js/tempus-dominus.min.js"
+        crossorigin="anonymous"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="index.html" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">Kufsteiner</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2" aria-hidden="true"></i>
+                    <p class="m-0">Kaiserjägerstr. 26, 6330 Kufstein, AT</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2" aria-hidden="true"></i>
+                    <p class="m-0">kontakt@kufsteiner-reinigung.at</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">Kufsteiner</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                title="Navigation umschalten">
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">Über Uns</a>
+                    <div class="nav-item dropdown">
+                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false">Leistungen</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="service.html#grundreinigung" class="dropdown-item">Grundreinigung &
+                                Baustellenreinigung</a>
+                            <a href="service.html#fenster-fassade" class="dropdown-item">Fenster- &
+                                Fassadenreinigung</a>
+                            <a href="service.html#hotel-kueche" class="dropdown-item">Hotel-, Küchen- &
+                                Gastronomiereinigung</a>
+                            <a href="service.html#boden-garage" class="dropdown-item">Boden- & Garagenreinigung</a>
+                            <a href="service.html#ordination-reinraum" class="dropdown-item">Ordinationen, Reinräume &
+                                Fitnessstudios</a>
+                            <a href="service.html#trockeneisstrahlen" class="dropdown-item">Trockeneisstrahlen</a>
+                            <a href="service.html#treppen-stiegenhaus" class="dropdown-item">Treppen- &
+                                Stiegenhausreinigung</a>
+                            <a href="service.html#unterhalts-buero" class="dropdown-item">Unterhalts- &
+                                Büroreinigung</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false">Seiten</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="booking.html" class="dropdown-item">Termin anfragen</a>
+                            <a href="team.html" class="dropdown-item">Unser Team</a>
+                            <a href="testimonial.html" class="dropdown-item">Kundenstimmen</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white contact-icon">
+                        <i class="fa fa-phone-alt text-primary" aria-hidden="true"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white">Kontakt</p>
+                        <h5 class="m-0 text-secondary">+43 123 456 789</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg"
+                    alt="Professionelle Gebäudereinigung Kufstein Familienbetrieb">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center carousel-overlay">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Kufsteiner Reinigung
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Individueller Service vom
+                                    Familienbetrieb</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Verlässlichkeit vom Meisterbetrieb, über
+                                    20 Jahre Erfahrung, wir stehen für Kompetenz und Flexibilität.</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                                    aria-label="Mehr über uns erfahren">Mehr erfahren</a>
+                                <a href="booking.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                                    aria-label="Angebot für Reinigung anfragen">Angebot anfragen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="Strahlende Fassadenreinigung Kufstein">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center carousel-overlay">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Kufsteiner Reinigung
+                                </h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Sauberkeit, die begeistert
+                                </h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Mit Leidenschaft und Präzision sorgen wir
+                                    für strahlende Ergebnisse – Ihr Partner für professionelle Reinigung seit über 20
+                                    Jahren.</p>
+                                <a href="about.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                                    aria-label="Mehr über uns erfahren">Mehr erfahren</a>
+                                <a href="booking.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight"
+                                    aria-label="Angebot für Reinigung anfragen">Angebot anfragen</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">Über uns</h6>
+                    <h1 class="mb-4">Ihre Gebäudereinigung aus Kufstein mit Rundum-Service</h1>
+                    <p class="mb-4">Willkommen bei der Kufsteiner Denkmal-, Fassaden- und Gebäudereinigung GmbH! Als
+                        Familienbetrieb in Kufstein, Tirol, sorgen wir für Sauberkeit, die begeistert – von Unterhalts-
+                        und Fensterreinigung bis hin zu innovativem Trockeneisstrahlen.</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"
+                            aria-hidden="true"></i>Verlässlicher Service</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"
+                            aria-hidden="true"></i>Über 20 Jahre Expertise</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"
+                            aria-hidden="true"></i>Engagiertes Team</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"
+                            aria-hidden="true"></i>Maßgeschneiderte Lösungen</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"
+                            aria-hidden="true"></i>Strahlende Ergebnisse</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"
+                            aria-hidden="true"></i>Persönliche Betreuung</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"
+                            aria-hidden="true"></i>Höchster Qualitätsstandard</p>
+                    <div class="bg-primary d-flex align-items-center p-4 mt-5">
+                        <div
+                            class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white about-contact-icon">
+                            <i class="fa fa-phone-alt fa-2x text-primary" aria-hidden="true"></i>
+                        </div>
+                        <div class="ms-3">
+                            <p class="fs-5 fw-medium mb-2 text-white">Jetzt anrufen</p>
+                            <h3 class="m-0">
+                                <a href="tel:+43123456789" class="text-secondary text-decoration-none"
+                                    aria-label="Jetzt anrufen unter +43 123 456 789">+43 123 456 789</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4 about-image-container">
+                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="position-absolute img-fluid w-100 h-100 about-main-image" src="img/about-1.jpg"
+                            alt="Team der Kufsteiner Gebäudereinigung in Aktion">
+                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white about-secondary-image"
+                            src="img/about-2.jpg" alt="Detailaufnahme Reinigungsarbeiten Kufstein">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Fact Start -->
+    <div class="container-xxl fact my-5 py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">Unsere Erfolge</h6>
+                <h2 class="text-white mb-5">Gebäudereinigung Kufstein in Zahlen</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                    <i class="fa fa-history fa-2x text-white mb-3" aria-hidden="true"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up" aria-label="Über 20 Jahre Erfahrung">20</h2>
+                    <p class="text-white mb-0">Jahre Erfahrung</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                    <i class="fa fa-broom fa-2x text-white mb-3" aria-hidden="true"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up"
+                        aria-label="Über 50 erfahrene Reinigungskräfte">50</h2>
+                    <p class="text-white mb-0">Erfahrene Reinigungskräfte</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <i class="fa fa-smile fa-2x text-white mb-3" aria-hidden="true"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up" aria-label="Über 500 zufriedene Kunden">500
+                    </h2>
+                    <p class="text-white mb-0">Zufriedene Kunden</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                    <i class="fa fa-check-circle fa-2x text-white mb-3" aria-hidden="true"></i>
+                    <h2 class="text-white mb-2" data-toggle="counter-up" aria-label="Über 1000 abgeschlossene Projekte">
+                        1000</h2>
+                    <p class="text-white mb-0">Abgeschlossene Projekte</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid service py-5 px-4 px-lg-0">
+        <div class="row g-0">
+            <div class="col-lg-3 d-none d-lg-flex">
+                <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
+                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">Über 20 Jahre Erfahrung</h1>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-9">
+                <div class="ms-lg-5 ps-lg-5">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-primary text-uppercase">Unsere Leistungen</h6>
+                        <h1 class="mb-5">Professionelle Reinigung in Kufstein</h1>
+                    </div>
+                    <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item bg-light text-center p-4">
+                            <div class="service-img mb-4">
+                                <picture>
+                                    <source srcset="img/service-1.webp" type="image/webp">
+                                    <img class="img-fluid" src="img/service-1.jpg" alt="Unterhaltsreinigung Kufstein">
+                                </picture>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                                style="width: 75px; height: 75px; margin: 0 auto;">
+                                <i class="fa fa-broom fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="mb-3">Unterhalts- & Büroreinigung</h4>
+                            <p>Regelmäßige Reinigung für Büros und Gewerberäume in Kufstein.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Höchste
+                                Qualität</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Zuverlässig
+                            </p>
+                            <p class="text-primary fw-medium"><i
+                                    class="fa fa-check text-success me-2"></i>Umweltfreundlich</p>
+                            <a class="btn btn-primary py-2 px-4 mt-3" href="service.html#unterhalts-buero"
+                                aria-label="Mehr über Unterhaltsreinigung erfahren">Mehr erfahren</a>
+                        </div>
+                        <div class="service-item bg-light text-center p-4">
+                            <div class="service-img mb-4">
+                                <picture>
+                                    <source srcset="img/service-2.webp" type="image/webp">
+                                    <img class="img-fluid" src="img/service-2.jpg" alt="Fensterreinigung Kufstein">
+                                </picture>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                                style="width: 75px; height: 75px; margin: 0 auto;">
+                                <i class="fa fa-window-maximize fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="mb-3">Fenster- & Fassadenreinigung</h4>
+                            <p>Streifenfreie Fenster und strahlende Fassaden für Ihr Gebäude.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Professionell
+                            </p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Schnell</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Sicher</p>
+                            <a class="btn btn-primary py-2 px-4 mt-3" href="service.html#fenster-fassade"
+                                aria-label="Mehr über Fensterreinigung erfahren">Mehr erfahren</a>
+                        </div>
+                        <div class="service-item bg-light text-center p-4">
+                            <div class="service-img mb-4">
+                                <picture>
+                                    <source srcset="img/service-3.webp" type="image/webp">
+                                    <img class="img-fluid" src="img/service-3.jpg" alt="Trockeneisstrahlen Kufstein">
+                                </picture>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4"
+                                style="width: 75px; height: 75px; margin: 0 auto;">
+                                <i class="fa fa-snowflake fa-2x text-primary"></i>
+                            </div>
+                            <h4 class="mb-3">Trockeneisstrahlen</h4>
+                            <p>Innovative Reinigung für empfindliche Oberflächen und Denkmäler.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Innovativ</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Schonend</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Effektiv</p>
+                            <a class="btn btn-primary py-2 px-4 mt-3" href="service.html#trockeneisstrahlen"
+                                aria-label="Mehr über Trockeneisstrahlen erfahren">Mehr erfahren</a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="service.html" class="btn btn-primary py-3 px-5"
+                            aria-label="Alle Leistungen ansehen">Alle Leistungen ansehen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Booking Start -->
+    <div class="container-fluid my-5 px-0">
+        <div class="video wow fadeInUp" data-wow-delay="0.1s">
+            <video autoplay muted loop playsinline class="video-bg"
+                aria-label="Hintergrundvideo: Zeitraffer der Reinigung in Kufstein">
+                <source src="img/booking.mp4" type="video/mp4">
+                <source src="img/booking.webm" type="video/webm">
+                <img src="https://placehold.co/1920x600/007bff/ffffff?text=Notfall-Reinigung+Kufstein"
+                    alt="Notfall-Reinigung Kufstein" class="video-fallback">
+            </video>
+            <h1 class="text-white mb-4">Notfall-Reinigung in Kufstein</h1>
+            <h3 class="text-white mb-0">24 Stunden, 7 Tage die Woche</h3>
+        </div>
+        <div class="container position-relative wow fadeInUp" data-wow-delay="0.3s" style="margin-top: -6rem;">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-light text-center p-5 rounded">
+                        <h1 class="mb-4">Buchen Sie Ihre Reinigung</h1>
+                        <form action="#" method="post">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0" id="name" name="name"
+                                            placeholder="Ihr Name" required aria-label="Ihr Name">
+                                        <label for="name">Ihr Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control border-0" id="email" name="email"
+                                            placeholder="Ihre E-Mail" required aria-label="Ihre E-Mail">
+                                        <label for="email">Ihre E-Mail</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-floating">
+                                        <select class="form-select border-0" id="service" name="service" required
+                                            aria-label="Dienstleistung auswählen">
+                                            <option value="" disabled selected>Dienstleistung auswählen</option>
+                                            <option value="unterhaltsreinigung">Unterhalts- & Büroreinigung</option>
+                                            <option value="fensterreinigung">Fenster- & Fassadenreinigung</option>
+                                            <option value="trockeneisstrahlen">Trockeneisstrahlen</option>
+                                        </select>
+                                        <label for="service">Dienstleistung</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 datetimepicker-input" id="date"
+                                            name="date" placeholder="Datum" required data-bs-toggle="datetimepicker"
+                                            data-bs-target="#date" aria-label="Datum der Reinigung">
+                                        <label for="date">Datum</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control border-0" id="message" name="message"
+                                            placeholder="Sonderwünsche" style="height: 100px"
+                                            aria-label="Sonderwünsche"></textarea>
+                                        <label for="message">Sonderwünsche</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit"
+                                        aria-label="Jetzt buchen">Jetzt buchen</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Technicians</h6>
+                <h1 class="mb-5">Our Expert Technicians</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Full Name</h5>
+                                <small>Designation</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- Testimonial Start 
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Testimonial</h6>
+                <h1 class="mb-5">Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2 testimonial-img" src="img/testimonial-1.jpg" alt="Testimonial 1"
+                        style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Client Name</h5>
+                    <p class="m-0">Profession</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-2.jpg"
+                        style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Client Name</h5>
+                    <p class="m-0">Profession</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-3.jpg"
+                        style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Client Name</h5>
+                    <p class="m-0">Profession</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et
+                            eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-4.jpg"
+                        style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Client Name</h5>
+                    <p class="m-0">Profession</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -- Testimonial End -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Adresse</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>KaiserjägerStr 26, 6330 Kufstein</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Öffnungszeiten</h4>
+                    <p class="mb-0">Wir sind rund um die Uhr, 7 Tage die Woche, für Sie erreichbar!</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Links</h4>
+                    <a class="btn btn-link" href="">Impressum</a>
+                    <a class="btn btn-link" href="">Datenschutzerklärung</a>
+                    <a class="btn btn-link" href="contact.html">Kontakt</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Kufsteiner Denkmal-Fassaden- und Gebäudereinigung
+                            GmbH</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://www.dimit.cc">dimit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top" title="Back to top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/tempus-dominus.min.js"></script> <!-- Lokal, kopiert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</body>
+</body>
+</body>
+
+</html>
