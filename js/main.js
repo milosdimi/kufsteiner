@@ -80,7 +80,7 @@
     );
 
     $(".back-to-top").on("click", () => {
-        $("html, body").animate({ scrollTop: 0 }, 1500, "swing");
+        $("html, body").animate({ scrollTop: 0 }, 300, "swing");
         return false;
     });
 
