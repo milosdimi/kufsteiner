@@ -1,108 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="utf-8">
-    <title>Plumberz - Free Plumbing Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <title>Gebäudereinigung Kufstein - Kufsteiner Denkmal & Fassaden</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professionelle Gebäudereinigung in Kufstein, Tirol. Über 20 Jahre Erfahrung in Denkmal-, Fassaden- und Unterhaltsreinigung.">
+    <meta name="keywords"
+        content="Gebäudereinigung, Kufstein, Denkmalreinigung, Fassadenreinigung, Unterhaltsreinigung, Tirol">
+    <meta name="author" content="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" type="image/x-icon" href="img/trusty.png">
+    <link rel="apple-touch-icon" href="img/trusty.png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/tempus-dominus.min.css"> <!-- Lokal, kopiert -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/css/tempus-dominus.min.css"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/js/tempus-dominus.min.js"
+        crossorigin="anonymous"></script>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
         </div>
     </div>
     <!-- Spinner End -->
-
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-light d-none d-lg-block">
         <div class="row align-items-center top-bar">
             <div class="col-lg-3 col-md-12 text-center text-lg-start">
-                <a href="" class="navbar-brand m-0 p-0">
-                    <h1 class="text-primary m-0">Plumberz</h1>
+                <a href="index.html" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">Kufsteiner</h1>
                 </a>
             </div>
             <div class="col-lg-9 col-md-12 text-end">
                 <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                    <p class="m-0">123 Street, New York, USA</p>
+                    <i class="fa fa-map-marker-alt text-primary me-2" aria-hidden="true"></i>
+                    <a href="https://www.google.com/maps/place/Kaiserjäger+Str.+26,+6330+Kufstein,+Austria"
+                        target="_blank" rel="noopener noreferrer" class="text-dark" style="text-decoration: none;">
+                        Kaiserjäger Str. 26, 6330 Kufstein
+                    </a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="far fa-envelope-open text-primary me-2"></i>
-                    <p class="m-0">info@example.com</p>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                    <i class="far fa-envelope-open text-primary me-2" aria-hidden="true"></i>
+                    <a href="mailto:kontakt@kufsteiner-reinigung.at" class="text-dark"
+                        style="text-decoration: none;">kontakt@kufsteiner-reinigung.at</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <div class="container-fluid nav-bar bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
-            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                <h1 class="text-primary m-0">Plumberz</h1>
+            <a href="index.html" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">Kufsteiner</h1>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                title="Navigation umschalten">
+                <span class="fa fa-bars" aria-hidden="true"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav me-auto">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">Über Uns</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false">Leistungen</a>
                         <div class="dropdown-menu fade-up m-0">
-                            <a href="booking.html" class="dropdown-item">Booking</a>
-                            <a href="team.html" class="dropdown-item">Technicians</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
+                            <a href="service.html#grundreinigung" class="dropdown-item">Grundreinigung &
+                                Baustellenreinigung</a>
+                            <a href="service.html#fenster-fassade" class="dropdown-item">Fenster- &
+                                Fassadenreinigung</a>
+                            <a href="service.html#hotel-kueche" class="dropdown-item">Hotel-, Küchen- &
+                                Gastronomiereinigung</a>
+                            <a href="service.html#boden-garage" class="dropdown-item">Boden- & Garagenreinigung</a>
+                            <a href="service.html#ordination-reinraum" class="dropdown-item">Ordinationen, Reinräume &
+                                Fitnessstudios</a>
+                            <a href="service.html#trockeneisstrahlen" class="dropdown-item">Trockeneisstrahlen</a>
+                            <a href="service.html#treppen-stiegenhaus" class="dropdown-item">Treppen- &
+                                Stiegenhausreinigung</a>
+                            <a href="service.html#unterhalts-buero" class="dropdown-item">Unterhalts- &
+                                Büroreinigung</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false">Seiten</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="booking.html" class="dropdown-item">Termin anfragen</a>
+                            <a href="team.html" class="dropdown-item">Unser Team</a>
+                            <a href="testimonial.html" class="dropdown-item">Kundenstimmen</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
                 </div>
                 <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
-                        <i class="fa fa-phone-alt text-primary"></i>
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white contact-icon">
+                        <i class="fa fa-phone-alt text-primary" aria-hidden="true"></i>
                     </div>
                     <div class="ms-3">
-                        <p class="mb-1 text-white">Emergency 24/7</p>
-                        <h5 class="m-0 text-secondary">+012 345 6789</h5>
+                        <p class="mb-1 text-white">Kontakt</p>
+                        <h5 class="m-0 text-secondary"><a href="tel:+43123456789" class="text-secondary"
+                                style="text-decoration: none;">+43 123 456 789</a></h5>
                     </div>
                 </div>
             </div>
@@ -112,14 +143,14 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 py-5">
+    <div class="container-fluid page-header-about page-header mb-5 py-5">
         <div class="container">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Kontakt</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Kontakt</li>
                 </ol>
             </nav>
         </div>
@@ -128,97 +159,242 @@
 
 
     <!-- Contact Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase">Get In Touch</h6>
-                    <h1 class="mb-4">Contact For Any Query</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <iframe class="position-relative w-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+    <section class="container-fluid py-5 contact" id="contact"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/contact-bg.jpg') no-repeat center center/cover;">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-4 text-white">Kontaktieren Sie uns</h1>
+            </div>
+            <div class="row g-5 align-items-center">
+                <!-- Kontaktdaten und Infos -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h3 class="mb-4 text-white">Unsere Kontaktdaten</h3>
+                    <p class="mb-4 text-white">Haben Sie Fragen? Wir sind für Sie da! Besuchen Sie uns oder rufen Sie
+                        uns an.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary text-white rounded-circle me-3"
+                            style="width: 45px; height: 45px;">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-1 text-white">Adresse</h5>
+                            <p class="mb-0">
+                                <a href="https://www.google.com/maps/place/Kaiserjäger+Str.+26,+6330+Kufstein,+Austria"
+                                    target="_blank" class="text-white no-underline address-link" rel="noopener">
+                                    Kaiserjäger Str. 26, 6330 Kufstein, Tirol, Österreich
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary text-white rounded-circle me-3"
+                            style="width: 45px; height: 45px;">
+                            <i class="fa fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-1 text-white">Telefon</h5>
+                            <p class="mb-1">
+                                <a href="tel:+43123456789" class="text-white" style="text-decoration: none;">+43 123 456
+                                    789</a>
+                            </p>
+                            <p class="mb-0">
+                                <a href="tel:+43987654321" class="text-white" style="text-decoration: none;">+43 987 654
+                                    321</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary text-white rounded-circle me-3"
+                            style="width: 45px; height: 45px;">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-1 text-white">E-Mail</h5>
+                            <p class="mb-0">
+                                <a href="mailto:info@kufsteiner-reinigung.at" class="text-white"
+                                    style="text-decoration: none;">info@kufsteiner-reinigung.at</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary text-white rounded-circle me-3"
+                            style="width: 45px; height: 45px;">
+                            <i class="fa fa-clock"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-1 text-white">Öffnungszeiten</h5>
+                            <p class="mb-0 text-white">Mo-Fr: 8:00 - 17:00</p>
+                        </div>
+                    </div>
+                    <!-- Social Media Links (nebeneinander) -->
+                    <div class="mt-4">
+                        <h5 class="mb-3 text-white">Folgen Sie uns</h5>
+                        <div class="d-flex">
+                            <a class="btn btn-primary btn-square me-2" href="https://facebook.com" target="_blank"
+                                rel="noopener" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn btn-primary btn-square me-2" href="https://instagram.com" target="_blank"
+                                rel="noopener" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a class="btn btn-primary btn-square me-2" href="https://linkedin.com" target="_blank"
+                                rel="noopener" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="bg-light p-5 h-100 d-flex align-items-center">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
+                <!-- Google Maps -->
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <h3 class="mb-4 text-white">Finden Sie uns auf der Karte</h3>
+                    <iframe class="w-100 rounded"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2703.123456789!2d12.169876315616!3d47.582430879182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47769d7c1a7b2b2b%3A0x123456789abcdef!2sKaiserj%C3%A4ger+Str.+26%2C+6330+Kufstein%2C+Austria!5e0!3m2!1sen!2sat!4v1621234567890!5m2!1sen!2sat"
+                        height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        aria-label="Karte von Kufstein"></iframe>
+                </div>
+            </div>
+            <!-- Buchungsformular -->
+            <div class="container position-relative wow fadeInUp" data-wow-delay="0.3s" style="margin-top: 4rem;">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="bg-light text-center p-5 rounded">
+                            <h1 class="mb-4">Buchen Sie Ihre Reinigung</h1>
+                            <form action="#" method="post">
+                                <div class="row g-3">
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control border-0" id="name" name="name"
+                                                placeholder="Ihr Name" required aria-label="Ihr Name">
+                                            <label for="name">Ihr Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control border-0" id="email" name="email"
+                                                placeholder="Ihre E-Mail" required aria-label="Ihre E-Mail">
+                                            <label for="email">Ihre E-Mail</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-floating">
+                                            <select class="form-select border-0" id="service" name="service" required
+                                                aria-label="Dienstleistung auswählen">
+                                                <option value="" disabled selected>Dienstleistung auswählen</option>
+                                                <option value="grundreinigung">Grundreinigung & Baustellenreinigung
+                                                </option>
+                                                <option value="fensterreinigung">Fenster- & Fassadenreinigung</option>
+                                                <option value="hotelkuechereinigung">Hotel-, Küchen- &
+                                                    Gastronomiereinigung
+                                                </option>
+                                                <option value="bodengaragereinigung">Boden- & Garagenreinigung</option>
+                                                <option value="ordinationreinraum">Ordinationen, Reinräume &
+                                                    Fitnessstudios
+                                                </option>
+                                                <option value="trockeneisstrahlen">Trockeneisstrahlen</option>
+                                                <option value="treppenstiegenhaus">Treppen- & Stiegenhausreinigung
+                                                </option>
+                                                <option value="unterhaltsreinigung">Unterhalts- & Büroreinigung</option>
+                                            </select>
+                                            <label for="service">Dienstleistung</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <div class="form-floating">
+                                            <input type="date" class="form-control border-0" id="date" name="date"
+                                                required aria-label="Datum der Reinigung">
+                                            <label for="date">Datum</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control border-0" id="message" name="message"
+                                                placeholder="Sonderwünsche" style="height: 100px"
+                                                aria-label="Sonderwünsche"></textarea>
+                                            <label for="message">Sonderwünsche</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary w-100 py-3" type="submit"
+                                            aria-label="Jetzt buchen">Jetzt buchen</button>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Contact End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
+                <!-- Adresse -->
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <h4 class="text-light mb-4">Adresse</h4>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        <a href="https://www.google.com/maps/place/Kaiserjäger+Str.+26,+6330+Kufstein,+Austria"
+                            target="_blank" rel="noopener noreferrer" class="text-light" style="text-decoration: none;">
+                            Kaiserjäger Str. 26, 6330 Kufstein
+                        </a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        <a href="tel:+43123456789" class="text-light" style="text-decoration: none;">+43 123 456 789</a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        <a href="mailto:info@kufsteiner-reinigung.at" class="text-light"
+                            style="text-decoration: none;">info@kufsteiner-reinigung.at</a>
+                    </p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                 </div>
+                <!-- Öffnungszeiten -->
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Opening Hours</h4>
-                    <h6 class="text-light">Monday - Friday:</h6>
-                    <p class="mb-4">09.00 AM - 09.00 PM</p>
-                    <h6 class="text-light">Saturday - Sunday:</h6>
-                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                    <h4 class="text-light mb-4">Öffnungszeiten</h4>
+                    <p class="mb-0">Mo-Fr: 8:00 - 17:00</p>
+                    <p class="mb-0">Sa-So: Geschlossen</p>
                 </div>
+                <!-- Links -->
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Drain Cleaning</a>
-                    <a class="btn btn-link" href="">Sewer Line</a>
-                    <a class="btn btn-link" href="">Water Heating</a>
-                    <a class="btn btn-link" href="">Toilet Cleaning</a>
-                    <a class="btn btn-link" href="">Broken Pipe</a>
+                    <h4 class="text-light mb-4">Links</h4>
+                    <a class="btn btn-link" href="impressum.html">Impressum</a>
+                    <a class="btn btn-link" href="datenschutz.html">Datenschutzerklärung</a>
+                    <a class="btn btn-link" href="contact.html">Kontakt</a>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                <!-- Logo und Spruch -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <a href="index.html" class="d-block mb-4">
+                        <img src="img/cleaning-tools.gif"
+                            alt="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH Logo" style="max-width: 150px;">
+                    </a>
+                    <p class="text-light font-italic">Sauberkeit, die Geschichte bewahrt seit 2006</p>
                 </div>
             </div>
         </div>
@@ -226,11 +402,12 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        © <a class="border-bottom" href="#">Kufsteiner Gebäudereinigung GmbH</a>,
+                        All Rights Reserved 2025.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                        Designed By <a class="border-bottom" href="https://www.dimit.cc" target="_blank"
+                            rel="noopener noreferrer">dimit</a>
                     </div>
                 </div>
             </div>
@@ -243,20 +420,34 @@
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
+    <!-- Cookie Banner Start (direkt nach <body>) -->
+    <div id="cookie-banner"
+        class="cookie-banner fixed-bottom bg-dark text-light p-3 d-flex justify-content-between align-items-center"
+        style="z-index: 1000; display: none;">
+        <div>
+            Diese Website verwendet Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien
+            anzubieten und den Datenverkehr zu analysieren. Ihre Einwilligung ist erforderlich. Weitere Informationen
+            finden Sie in unserer <a href="datenschutz.html" class="text-primary">Datenschutzerklärung</a>.
+        </div>
+        <div class="d-flex align-items-center" style="gap: 10px;">
+            <button id="accept-cookies" class="btn btn-primary btn-sm me-2">Akzeptieren</button>
+            <button id="reject-cookies" class="btn btn-outline-primary btn-sm ms-2">Ablehnen</button>
+        </div>
+    </div>
+    <!-- Cookie Banner End -->
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/tempus-dominus.min.js"></script> <!-- Lokal, kopiert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/cookie-mailer.js"></script>
 </body>
 
 </html>

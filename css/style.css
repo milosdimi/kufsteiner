@@ -758,3 +758,8 @@
     border-radius: 50%;
 }
 
+.modal {
+    padding-top: 80px;
+    /* Abstand von oben, um die Navbar zu berücksichtigen */
+}
+
