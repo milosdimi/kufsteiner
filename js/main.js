@@ -164,6 +164,20 @@
             },
         });
 
+        // about.html carousel
+        $(document).ready(function () {
+            $('.about-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                items: 1,
+                navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+            });
+        });
+
         // Testimonial carousel
         $(".testimonial-carousel").owlCarousel({
             autoplay: true,

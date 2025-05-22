@@ -718,3 +718,43 @@
         gap: 10px;
     }
 }
+
+/********** about.html **********/
+
+.page-header-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/kufstein-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-carousel .owl-carousel .item {
+    position: relative;
+}
+
+.about-carousel .owl-carousel .carousel-caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+.about-carousel .owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-carousel .owl-carousel .owl-nav i {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
