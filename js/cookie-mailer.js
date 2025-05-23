@@ -44,3 +44,38 @@ document.addEventListener('DOMContentLoaded', () => {
     acceptCookies.addEventListener('click', acceptHandler);
     rejectCookies.addEventListener('click', rejectHandler);
 });
+
+// Kontaktformular
+function sendMail(event) {
+    event.preventDefault();
+
+    // Formular-Daten sammeln
+    const form = event.target;
+    const data = new FormData(form);
+
+    // Fehlermeldung zurücksetzen
+    const errorMessageDiv = document.getElementById("error-message");
+    errorMessageDiv.style.display = "none";
+    errorMessageDiv.textContent = "";
+
+    // Senden an Formspree
+    fetch("https://formspree.io/f/mldbkaoo", {
+        method: "POST",
+        body: data,
+        headers: {
+            Accept: "application/json",
+        },
+    })
+        .then((response) => {
+            if (response.ok) {
+                window.location.href = "./send_mail.html";
+            } else {
+                throw new Error("Fehler beim Senden.");
+            }
+        })
+        .catch((error) => {
+            console.error("Fehler beim Senden der E-Mail:", error);
+            errorMessageDiv.textContent = "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.";
+            errorMessageDiv.style.display = "block";
+        });
+}

@@ -589,7 +589,7 @@
                 <div class="col-lg-8">
                     <div class="bg-light text-center p-5 rounded">
                         <h1 class="mb-4">Buchen Sie Ihre Reinigung</h1>
-                        <form action="#" method="post">
+                        <form method="post" onsubmit="sendMail(event)">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-floating">
@@ -626,9 +626,9 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-floating">
-                                        <input type="date" class="form-control border-0" id="date" name="date" required
-                                            aria-label="Datum der Reinigung">
-                                        <label for="date">Datum</label>
+                                        <input type="date" class="form-control border-0" id="fuerWann" name="fuerWann"
+                                            required aria-label="Datum auswählen">
+                                        <label for="fuerWann">Datum</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -638,6 +638,9 @@
                                             aria-label="Sonderwünsche"></textarea>
                                         <label for="message">Sonderwünsche</label>
                                     </div>
+                                </div>
+                                <div class="col-12">
+                                    <div id="error-message" class="text-danger mb-3" style="display: none;"></div>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit"

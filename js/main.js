@@ -198,41 +198,5 @@
             },
         });
 
-        // Datetimepicker mit Tempus Dominus v6 API
-        if (typeof tempusDominus !== "undefined") {
-            try {
-                const dateInput = document.querySelector("#date");
-                if (dateInput) {
-                    new tempusDominus.TempusDominus(dateInput, {
-                        display: {
-                            icons: {
-                                time: "fa fa-clock",
-                                date: "fa fa-calendar",
-                                up: "fa fa-arrow-up",
-                                down: "fa fa-arrow-down",
-                                previous: "fa fa-chevron-left",
-                                next: "fa fa-chevron-right",
-                                clear: "fa fa-trash",
-                            },
-                            components: {
-                                clock: false, // Nur Datum, keine Uhrzeit
-                            },
-                        },
-                        localization: {
-                            locale: "de",
-                            format: "dd.MM.yyyy",
-                        },
-                    });
-                } else {
-                    console.warn("Datumsfeld #date nicht gefunden.");
-                }
-            } catch (e) {
-                console.error("Fehler beim Initialisieren von Tempus Dominus:", e);
-                $("#date").prop("disabled", true);
-            }
-        } else {
-            console.error("Tempus Dominus nicht geladen. Prüfe die Skripte in index.html.");
-            $("#date").prop("disabled", true);
-        }
     });
 })(jQuery);
