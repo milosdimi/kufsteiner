@@ -12,8 +12,8 @@
     <meta name="author" content="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="img/trusty.png">
-    <link rel="apple-touch-icon" href="img/trusty.png">
+    <link rel="icon" type="image/x-icon" href="../img/trusty.png">
+    <link rel="apple-touch-icon" href="../img/trusty.png">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/tempus-dominus.min.css"> <!-- Lokal, kopiert -->
+    <link rel="stylesheet" href="../css/tempus-dominus.min.css"> <!-- Lokal, kopiert -->
 
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/css/tempus-dominus.min.css"
@@ -39,10 +39,10 @@
         crossorigin="anonymous"></script>
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <!-- Template Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -63,19 +63,49 @@
                     <h1 class="text-primary m-0">Kufsteiner</h1>
                 </a>
             </div>
+
             <div class="col-lg-9 col-md-12 text-end">
+                <!-- Adresse -->
                 <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="fa fa-map-marker-alt text-primary me-2" aria-hidden="true"></i>
-                    <a href="https://www.google.com/maps/place/Kaiserjäger+Str.+26,+6330+Kufstein,+Austria"
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66"
                         target="_blank" rel="noopener noreferrer" class="text-dark" style="text-decoration: none;">
-                        Kaiserjäger Str. 26, 6330 Kufstein
+                        Fransa De Perea 18, 37000 Krusevac
                     </a>
                 </div>
+
+                <!-- Email -->
                 <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="far fa-envelope-open text-primary me-2" aria-hidden="true"></i>
-                    <a href="mailto:kontakt@kufsteiner-reinigung.at" class="text-dark"
-                        style="text-decoration: none;">kontakt@kufsteiner-reinigung.at</a>
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <a href="mailto:kontakt@kufsteiner-reinigung.at" class="text-dark" style="text-decoration: none;">
+                        kontakt@kufsteiner-reinigung.at
+                    </a>
                 </div>
+
+                <!-- Sprachumschalter -->
+                <div class="h-100 d-inline-flex align-items-center ms-2 language-switcher">
+
+                    <!-- DE aktiv -->
+                    <a href="index.html" class="lang-link active" aria-label="Deutsch">
+                        <img src="../img/flags/de.png" alt="DE" class="flag-icon">
+                        <span class="d-none d-xl-inline ms-1">DE</span>
+                    </a>
+
+                    <!-- EN -->
+                    <a href="../en/index.html" class="lang-link" aria-label="English">
+                        <img src="../img/flags/gb.png" alt="EN" class="flag-icon">
+                        <span class="d-none d-xl-inline ms-1">EN</span>
+                    </a>
+
+                    <!-- SR -->
+                    <a href="../index.html" class="lang-link" aria-label="Srpski">
+                        <img src="../img/flags/rs.png" alt="SR" class="flag-icon">
+                        <span class="d-none d-xl-inline ms-1">SR</span>
+                    </a>
+
+                </div>
+                <!-- Sprachumschalter Ende -->
+
             </div>
         </div>
     </div>
@@ -151,7 +181,7 @@
 
     <!-- Contact Start -->
     <section class="container-fluid py-5 contact" id="contact"
-        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/contact-bg.jpg') no-repeat center center/cover;">
+        style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/contact-bg.jpg') no-repeat center center/cover;">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h1 class="display-6 mb-4 text-white">Kontaktieren Sie uns</h1>
@@ -170,9 +200,9 @@
                         <div>
                             <h5 class="mb-1 text-white">Adresse</h5>
                             <p class="mb-0">
-                                <a href="https://www.google.com/maps/place/Kaiserjäger+Str.+26,+6330+Kufstein,+Austria"
-                                    target="_blank" class="text-white no-underline address-link" rel="noopener">
-                                    Kaiserjäger Str. 26, 6330 Kufstein, Tirol, Österreich
+                                <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66" target="_blank"
+                                    class="text-white no-underline address-link" rel="noopener">
+                                    Fransa De Perea 18, 37000 Krusevac
                                 </a>
                             </p>
                         </div>
@@ -239,10 +269,9 @@
                 <!-- Google Maps -->
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <h3 class="mb-4 text-white">Finden Sie uns auf der Karte</h3>
-                    <iframe class="w-100 rounded"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2703.123456789!2d12.169876315616!3d47.582430879182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47769d7c1a7b2b2b%3A0x123456789abcdef!2sKaiserj%C3%A4ger+Str.+26%2C+6330+Kufstein%2C+Austria!5e0!3m2!1sen!2sat!4v1621234567890!5m2!1sen!2sat"
-                        height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                        aria-label="Karte von Kufstein"></iframe>
+                    <iframe class="w-100 rounded" height="350"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8039.094469532645!2d21.3297!3d43.572643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4756878cb540cacb%3A0xb268fe57e46901ed!2z0KTRgNCw0L3RiNCwINCUINCV0L_QtdGA0LXQsCAxNCwgS3J1xaFldmFjLCBTZXJiaWE!5e1!3m2!1sen!2sat!4v1765270857652!5m2!1sen!2sat"
+                        style="border:0;" loading="lazy"></iframe>
                 </div>
             </div>
             <!-- Buchungsformular -->
@@ -332,9 +361,9 @@
                     <h4 class="text-light mb-4">Adresse</h4>
                     <p class="mb-2">
                         <i class="fa fa-map-marker-alt me-3"></i>
-                        <a href="https://www.google.com/maps/place/Kaiserjäger+Str.+26,+6330+Kufstein,+Austria"
-                            target="_blank" rel="noopener noreferrer" class="text-light" style="text-decoration: none;">
-                            Kaiserjäger Str. 26, 6330 Kufstein
+                        <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66" target="_blank" rel="noopener noreferrer"
+                            class="text-light" style="text-decoration: none;">
+                            Fransa De Perea 18, 37000 Krusevac
                         </a>
                     </p>
                     <p class="mb-2">
@@ -385,7 +414,7 @@
                 <!-- Logo und Spruch -->
                 <div class="col-lg-3 col-md-6 text-center">
                     <a href="index.html" class="d-block mb-4">
-                        <img src="img/cleaning-tools.gif"
+                        <img src="../img/cleaning-tools.gif"
                             alt="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH Logo" style="max-width: 150px;">
                     </a>
                     <p class="text-light font-italic">Sauberkeit, die Geschichte bewahrt seit 2006</p>
@@ -433,15 +462,15 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/tempus-dominus.min.js"></script> <!-- Lokal, kopiert -->
+    <script src="../js/tempus-dominus.min.js"></script> <!-- Lokal, kopiert -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="js/cookie-mailer.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/cookie-mailer.js"></script>
 </body>
 
 </html>
