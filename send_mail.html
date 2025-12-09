@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Čišćenje objekata Kruševac - Kufsteiner DOO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Profesionalno čišćenje objekata u Kruševcu i okolini. Porodična firma sa preko 20 godina iskustva u čišćenju spomenika, fasada i redovnom održavanju.">
+    <meta name="keywords"
+        content="čišćenje objekata, Kruševac, čišćenje spomenika, čišćenje fasada, redovno održavanje, industrijsko čišćenje">
+    <meta name="author" content="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/trusty.png">
+    <link rel="apple-touch-icon" href="img/trusty.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/tempus-dominus.min.css"> <!-- Lokal, kopiert -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/css/tempus-dominus.min.css"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.7.7/dist/js/tempus-dominus.min.js"
+        crossorigin="anonymous"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Template Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Učitavanje...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="index.html" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0">Kufsteiner</h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <!-- Adresa -->
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2" aria-hidden="true"></i>
+                    <a href="https://www.google.com/maps/place/Franša+De+Perea+14,+Kru%C5%A1evac,+Serbia/"
+                        target="_blank" rel="noopener noreferrer" class="text-dark" style="text-decoration: none;">
+                        Fransa De Perea 14, 37000 Kruševac
+                    </a>
+                </div>
+                <!-- E-mail -->
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2" aria-hidden="true"></i>
+                    <a href="mailto:kontakt@kufsteiner-reinigung.at" class="text-dark"
+                        style="text-decoration: none;">kontakt@kufsteiner-reinigung.at</a>
+                </div>
+
+                <!-- Jezički menjač -->
+                <div class="h-100 d-inline-flex align-items-center ms-2 language-switcher">
+                    <!-- SR aktivan -->
+                    <a href="index.html" class="lang-link active" aria-label="Srpski">
+                        <img src="img/flags/rs.png" alt="SR" class="flag-icon">
+                        <span class="d-none d-xl-inline ms-1">SR</span>
+                    </a>
+
+                    <!-- DE -->
+                    <a href="de/index.html" class="lang-link" aria-label="Deutsch">
+                        <img src="img/flags/de.png" alt="DE" class="flag-icon">
+                        <span class="d-none d-xl-inline ms-1">DE</span>
+                    </a>
+
+                    <!-- EN -->
+                    <a href="en/index.html" class="lang-link" aria-label="English">
+                        <img src="img/flags/gb.png" alt="EN" class="flag-icon">
+                        <span class="d-none d-xl-inline ms-1">EN</span>
+                    </a>
+                </div>
+                <!-- Jezički menjač kraj -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="index.html" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0">Kufsteiner</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                title="Navigacija">
+                <span class="fa fa-bars" aria-hidden="true"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link">Početna</a>
+                    <a href="about.html" class="nav-item nav-link">O nama</a>
+                    <div class="nav-item dropdown">
+                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                            aria-expanded="false">Usluge</a>
+                        <div class="dropdown-menu fade-up m-0">
+                            <a href="service.html#grundreinigung" class="dropdown-item">Generalno &amp; posle
+                                gradnje</a>
+                            <a href="service.html#fenster-fassade" class="dropdown-item">Pranje prozora &amp;
+                                fasada</a>
+                            <a href="service.html#hotel-kueche" class="dropdown-item">Hoteli, kuhinje &amp;
+                                gastronomija</a>
+                            <a href="service.html#boden-garage" class="dropdown-item">Podovi &amp; garaže</a>
+                            <a href="service.html#ordination-reinraum" class="dropdown-item">Ordinacije, clean-room
+                                &amp; fitnes</a>
+                            <a href="service.html#trockeneisstrahlen" class="dropdown-item">Čišćenje suvim ledom</a>
+                            <a href="service.html#treppen-stiegenhaus" class="dropdown-item">Stepeništa</a>
+                            <a href="service.html#unterhalts-buero" class="dropdown-item">Redovno čišćenje &amp;
+                                kancelarije</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                </div>
+                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white contact-icon">
+                        <i class="fa fa-phone-alt text-primary" aria-hidden="true"></i>
+                    </div>
+                    <div class="ms-3">
+                        <p class="mb-1 text-white">Pozovite nas</p>
+                        <h5 class="m-0 text-secondary">
+                            <a href="tel:+43123456789" class="text-secondary" style="text-decoration: none;">
+                                +43 123 456 789
+                            </a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header-about page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Hvala!</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Početna</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Stranice</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Hvala</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Danke/Hvala Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <i class="bi bi-check-circle display-1 text-primary"></i>
+                    <h1 class="display-1">Hvala</h1>
+                    <h1 class="mb-4">Hvala vam na vašoj poruci!</h1>
+                    <p class="mb-4">
+                        Vaš zahtev smo uspešno primili i javićemo vam se u najkraćem mogućem roku.
+                        U međuvremenu vam želimo prijatan dan!
+                    </p>
+                    <a class="btn btn-primary rounded-pill py-3 px-5" href="index.html">Nazad na početnu stranu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Danke/Hvala End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow FadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Adresa -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Adresa</h4>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        <a href="https://www.google.com/maps/place/Kaiserjäger+Str.+26,+6330+Kufstein,+Austria"
+                            target="_blank" rel="noopener noreferrer" class="text-light" style="text-decoration: none;">
+                            Kaiserjäger Str. 26, 6330 Kufstein
+                        </a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        <a href="tel:+43123456789" class="text-light" style="text-decoration: none;">+43 123 456 789</a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        <a href="mailto:info@kufsteiner-reinigung.at" class="text-light"
+                            style="text-decoration: none;">info@kufsteiner-reinigung.at</a>
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Radno vreme -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Radno vreme</h4>
+                    <p class="mb-0">Pon–Pet: 8:00 - 17:00</p>
+                    <p class="mb-0">Sub–Ned: zatvoreno</p>
+                </div>
+                <!-- Linkovi -->
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Linkovi</h4>
+                    <a class="btn btn-link" href="impressum.html">Impressum</a>
+                    <a class="btn btn-link" href="datenschutz.html">Politika privatnosti</a>
+                    <a class="btn btn-link" href="contact.html">Kontakt</a>
+                </div>
+                <!-- Logo i slogan -->
+                <div class="col-lg-3 col-md-6 text-center">
+                    <a href="index.html" class="d-block mb-4">
+                        <img src="img/cleaning-tools.gif"
+                            alt="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH Logo" style="max-width: 150px;">
+                    </a>
+                    <p class="text-light font-italic">Čistoća koja čuva istoriju od 2006.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        © <a class="border-bottom" href="#">Kufsteiner Gebäudereinigung GmbH</a>,
+                        All Rights Reserved 2025.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed by <a class="border-bottom" href="https://www.dimit.cc" target="_blank"
+                            rel="noopener noreferrer">dimit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top" aria-label="Nazad na vrh">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Cookie Banner Start -->
+    <div id="cookie-banner"
+        class="cookie-banner fixed-bottom bg-dark text-light p-3 d-flex justify-content-between align-items-center"
+        style="z-index: 1000; display: none;">
+        <div>
+            Ovaj sajt koristi kolačiće kako bi personalizovao sadržaj i oglase, omogućio funkcije za društvene mreže i
+            analizu saobraćaja. Vaša saglasnost je potrebna. Više informacija pronaći ćete u našoj
+            <a href="datenschutz.html" class="text-primary">politici privatnosti</a>.
+        </div>
+        <div class="d-flex align-items-center" style="gap: 10px;">
+            <button id="accept-cookies" class="btn btn-primary btn-sm me-2">Prihvati</button>
+            <button id="reject-cookies" class="btn btn-outline-primary btn-sm ms-2">Odbij</button>
+        </div>
+    </div>
+    <!-- Cookie Banner End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/tempus-dominus.min.js"></script> <!-- Lokal, kopiert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/cookie-mailer.js"></script>
+</body>
+
+</html>
