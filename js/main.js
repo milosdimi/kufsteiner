@@ -200,3 +200,44 @@
 
     });
 })(jQuery);
+
+// --------------------------------------------------------------------
+// Booking-Link in Modals:
+// Modal zuerst schließen, DANN zum #booking Bereich scrollen
+// --------------------------------------------------------------------
+document.addEventListener("DOMContentLoaded", function () {
+    const bookingLinks = document.querySelectorAll(".booking-link");
+
+    bookingLinks.forEach((link) => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+
+            const goToBooking = () => {
+                const target = document.querySelector("#booking");
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                    });
+                }
+            };
+
+            // Wenn Link in einem Modal ist → Modal zuerst schließen
+            const modalEl = link.closest(".modal");
+            if (modalEl && window.bootstrap && bootstrap.Modal) {
+                const modalInstance = bootstrap.Modal.getOrCreateInstance(modalEl);
+
+                const handler = () => {
+                    modalEl.removeEventListener("hidden.bs.modal", handler);
+                    goToBooking();
+                };
+
+                modalEl.addEventListener("hidden.bs.modal", handler);
+                modalInstance.hide();
+            } else {
+                // Falls kein Modal drum herum → direkt scrollen
+                goToBooking();
+            }
+        });
+    });
+});
