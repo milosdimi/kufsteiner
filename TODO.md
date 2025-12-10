@@ -48,35 +48,35 @@
 
 ## 4. Sprachversionen & Verlinkungen
 
-- [ ] **SR-Version**
-  - [ ] Topbar + Navbar: alle Links zeigen auf SR-Dateien (index, about, service, contact, impressum, datenschutz, danke, usw.)
-  - [ ] Language-Switcher:  
+- [x] **SR-Version**
+  - [x] Topbar + Navbar: alle Links zeigen auf SR-Dateien (index, about, service, contact, impressum, datenschutz, danke, usw.)
+  - [x] Language-Switcher:  
         - `SR` → `index.html`  
         - `DE` → `de/index.html`  
         - `EN` → `en/index.html`
-- [ ] **DE-Version (im `/de` Ordner)**
-  - [ ] Alle internen Links zeigen auf `/de/...` (nicht versehentlich SR-Pfade)
-  - [ ] Links in Dropdown („Leistungen“) springen zu richtigen IDs auf `de/service.html`
-  - [ ] Bilder und `src`-Pfade prüfen (ggf. `../img/...` vs `img/...`)
-- [ ] **EN-Version (Ordner `/en`)**
-  - [ ] `en/index.html` erstellen (Basis: DE/SR, aber englische Texte)
-  - [ ] `en/about.html`
-  - [ ] `en/service.html`
-  - [ ] `en/contact.html`
-  - [ ] ggf. `en/impressum.html` / `en/privacy.html` (oder nur DE/SR rechtlich, aber dann klar kennzeichnen)
-  - [ ] Language-Switcher überall korrekt: SR ↔ DE ↔ EN
+- [x] **DE-Version (im `/de` Ordner)**
+  -[x] Alle internen Links zeigen auf `/de/...` (nicht versehentlich SR-Pfade)
+  - [x] Links in Dropdown („Leistungen“) springen zu richtigen IDs auf `de/service.html`
+  - [x] Bilder und `src`-Pfade prüfen (ggf. `../img/...` vs `img/...`)
+- [x] **EN-Version (Ordner `/en`)**
+  - [x] `en/index.html` erstellen (Basis: DE/SR, aber englische Texte)
+  - [x] `en/about.html`
+  - [x] `en/service.html`
+  - [x] `en/contact.html`
+  - [x] ggf. `en/impressum.html` / `en/privacy.html` (oder nur DE/SR rechtlich, aber dann klar kennzeichnen)
+  - [x] Language-Switcher überall korrekt: SR ↔ DE ↔ EN
 
 ---
 
 ## 5. Formulare & Mailversand
 
-- [ ] **Kontaktformular & Buchungsformular testen**
-  - [ ] `sendMail(event)` in `cookie-mailer.js` mit richtiger Ziel-Adresse konfigurieren
-  - [ ] Erfolgsseite (z. B. `danke.html`) wird korrekt aufgerufen
-  - [ ] Fehlermeldungen bei ungültigen Eingaben anzeigen (z. B. leere Felder / fehlerhafte E-Mail)
-- [ ] Spam-Schutz:
-  - [ ] Evtl. Honeypot-Feld oder simple Anti-Bot-Logik
-  - [ ] Absender-/Betreff-Format im Mailer prüfen
+- [x] **Kontaktformular & Buchungsformular testen**
+  - [x] `sendMail(event)` in `cookie-mailer.js` mit richtiger Ziel-Adresse konfigurieren
+  - [x] Erfolgsseite (z. B. `danke.html`) wird korrekt aufgerufen
+  - [x] Fehlermeldungen bei ungültigen Eingaben anzeigen (z. B. leere Felder / fehlerhafte E-Mail)
+- [x] Spam-Schutz:
+  - [x] Evtl. Honeypot-Feld oder simple Anti-Bot-Logik
+  - [x] Absender-/Betreff-Format im Mailer prüfen
 
 ---
 
@@ -106,18 +106,18 @@
   - [ ] `User-agent: *`
   - [ ] `Allow: /`
   - [ ] `Sitemap: https://deine-domain.xy/sitemap.xml`
-- [ ] **404-Seite**
-  - [ ] `404.html` gestalten (auf SR, DE, EN oder neutral)
-  - [ ] Link zurück zur Startseite(n)
-  - [ ] Einfacher Text: „Seite nicht gefunden“ etc.
+- [x] **404-Seite**
+  - [x] `404.html` gestalten (auf SR, DE, EN oder neutral)
+  - [x] Link zurück zur Startseite(n)
+  - [x] Einfacher Text: „Seite nicht gefunden“ etc.
 
 ---
 
 ## 8. Performance & Technik-Feinschliff
 
-- [ ] Bilder checken:
-  - [ ] Möglichst `.webp` nutzen (ist schon teilweise drin – Rest nachziehen)
-  - [ ] Bildgrößen optimieren (keine 5 MB Monster)
+- [x] Bilder checken:
+  - [x] Möglichst `.webp` nutzen (ist schon teilweise drin – Rest nachziehen)
+  - [x] Bildgrößen optimieren (keine 5 MB Monster)
   - [ ] `alt`-Texte überall vorhanden (SEO + Barrierefreiheit)
 - [ ] Lazy Loading (optional nice-to-have)
   - [ ] `<img loading="lazy" ...>` bei Bildern, die nicht „above the fold“ sind
@@ -139,7 +139,7 @@
 ## 10. Finaler Pre-Launch Check
 
 - [ ] Alle Seiten mit echter Domain testen (nicht nur lokal)
-- [ ] Hauptnavigation testen (SR, DE, EN)
+- [x] Hauptnavigation testen (SR, DE, EN)
 - [ ] Footer-Links testen (Impressum, Datenschutz, Kontakt)
 - [ ] Formulare auf allen Sprachen testen
 - [ ] Responsiveness checken (Mobile, Tablet, Desktop)

@@ -195,7 +195,21 @@
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
+.language-switcher-mobile .lang-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
 
+.language-switcher-mobile .lang-link.active span {
+    font-weight: 600;
+}
+
+.language-switcher-mobile .flag-icon {
+    width: 22px;
+    height: auto;
+    border-radius: 2px;
+}
 
 /*** Header ***/
 .carousel-overlay {

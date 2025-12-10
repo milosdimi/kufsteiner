@@ -60,8 +60,8 @@
                 <!-- Adresa -->
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <i class="fa fa-map-marker-alt text-primary me-2" aria-hidden="true"></i>
-                    <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66"
-                        target="_blank" rel="noopener noreferrer" class="text-dark" style="text-decoration: none;">
+                    <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66" target="_blank" rel="noopener noreferrer"
+                        class="text-dark" style="text-decoration: none;">
                         Fransa De Perea 14, 37000 Kruševac
                     </a>
                 </div>
@@ -101,55 +101,76 @@
     <!-- Navbar Start -->
     <div class="container-fluid nav-bar bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+
+            <!-- Logo only visible on mobile -->
             <a href="index.html" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
                 <h1 class="text-primary m-0">Kufsteiner</h1>
             </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 title="Navigacija">
-                <span class="fa fa-bars" aria-hidden="true"></span>
+                <span class="fa fa-bars"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <!-- Navigation -->
                 <div class="navbar-nav me-auto">
                     <a href="index.html" class="nav-item nav-link active">Početna</a>
-                    <a href="about.html" class="nav-item nav-link">O nama</a>
+                    <a href="about.html" class="nav-item nav-link">O Nama</a>
+
                     <div class="nav-item dropdown">
-                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
-                            aria-expanded="false">Usluge</a>
+                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Usluge</a>
                         <div class="dropdown-menu fade-up m-0">
-                            <a href="service.html#grundreinigung" class="dropdown-item">Generalno &amp; posle
-                                gradnje</a>
-                            <a href="service.html#fenster-fassade" class="dropdown-item">Pranje prozora &amp;
-                                fasada</a>
-                            <a href="service.html#hotel-kueche" class="dropdown-item">Hoteli, kuhinje &amp;
-                                gastronomija</a>
-                            <a href="service.html#boden-garage" class="dropdown-item">Podovi &amp; garaže</a>
-                            <a href="service.html#ordination-reinraum" class="dropdown-item">Ordinacije, clean-room
-                                &amp; fitnes</a>
+                            <a href="service.html#grundreinigung" class="dropdown-item">Generalno & Građevinsko
+                                čišćenje</a>
+                            <a href="service.html#fenster-fassade" class="dropdown-item">Pranje stakala & fasada</a>
+                            <a href="service.html#hotel-kueche" class="dropdown-item">Hoteli & kuhinje</a>
+                            <a href="service.html#boden-garage" class="dropdown-item">Podovi & garaže</a>
+                            <a href="service.html#ordination-reinraum" class="dropdown-item">Ordinacije & čiste sobe</a>
                             <a href="service.html#trockeneisstrahlen" class="dropdown-item">Čišćenje suvim ledom</a>
                             <a href="service.html#treppen-stiegenhaus" class="dropdown-item">Stepeništa</a>
-                            <a href="service.html#unterhalts-buero" class="dropdown-item">Redovno čišćenje &amp;
-                                kancelarije</a>
+                            <a href="service.html#unterhalts-buero" class="dropdown-item">Održavanje & kancelarije</a>
                         </div>
                     </div>
+
                     <a href="contact.html" class="nav-item nav-link">Kontakt</a>
                 </div>
+
+                <!-- Language Switcher Mobile -->
+                <div class="d-lg-none mt-3 mb-2 language-switcher-mobile d-flex align-items-center gap-2">
+
+                    <a href="index.html" class="lang-link active">
+                        <img src="img/flags/rs.png" class="flag-icon" alt="SR"><span class="ms-1">SR</span>
+                    </a>
+
+                    <a href="de/index.html" class="lang-link">
+                        <img src="img/flags/de.png" class="flag-icon" alt="DE"><span class="ms-1">DE</span>
+                    </a>
+
+                    <a href="en/index.html" class="lang-link">
+                        <img src="img/flags/gb.png" class="flag-icon" alt="EN"><span class="ms-1">EN</span>
+                    </a>
+                </div>
+
+                <!-- Contact Box -->
                 <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white contact-icon">
-                        <i class="fa fa-phone-alt text-primary" aria-hidden="true"></i>
+                        <i class="fa fa-phone-alt text-primary"></i>
                     </div>
                     <div class="ms-3">
-                        <p class="mb-1 text-white">Pozovite nas</p>
-                        <h5 class="m-0 text-secondary">
-                            <a href="tel:+43123456789" class="text-secondary" style="text-decoration: none;">
-                                +43 123 456 789
-                            </a>
-                        </h5>
+                        <p class="mb-1 text-white">Kontakt</p>
+                        <h5 class="m-0"><a href="tel:+43123456789" class="text-secondary text-decoration-none">+43 123
+                                456 789</a></h5>
                     </div>
                 </div>
+
             </div>
         </nav>
     </div>
     <!-- Navbar End -->
+
+
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
@@ -519,8 +540,8 @@
                         <div>
                             <h5 class="mb-1 text-white">Adresa</h5>
                             <p class="mb-0">
-                                <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66"
-                                    target="_blank" class="text-white no-underline address-link" rel="noopener"
+                                <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66" target="_blank"
+                                    class="text-white no-underline address-link" rel="noopener"
                                     aria-label="Prikaži adresu na Google mapi">
                                     Fransa De Perea 14, 37000 Kruševac, Srbija
                                 </a>
@@ -770,8 +791,8 @@
                     <h4 class="text-light mb-4">Adresa</h4>
                     <p class="mb-2">
                         <i class="fa fa-map-marker-alt me-3"></i>
-                        <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66"
-                            target="_blank" rel="noopener noreferrer" class="text-light" style="text-decoration: none;">
+                        <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66" target="_blank" rel="noopener noreferrer"
+                            class="text-light" style="text-decoration: none;">
                             Fransa De Perea 18, 37000 Krusevac
                         </a>
                     </p>
