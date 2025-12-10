@@ -6,8 +6,8 @@
     <title>Kufsteiner Čišćenje – Impresum</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Zvanična stranica Kufsteiner Denkmal-, Fassaden- und Gebäudereinigung GmbH. Profesionalne usluge čišćenja sa tradicijom od 2006.">
-    <meta name="author" content="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH">
+        content="Zvanična stranica Kufsteiner čišćenja. Profesionalne usluge čišćenja fasada i objekata u Kruševcu i regionu, u saradnji sa Kufsteiner GmbH iz Austrije.">
+    <meta name="author" content="Kufsteiner d.o.o. & Kufsteiner Denkmal-, Fassaden- und Gebäudereinigung GmbH">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="img/trusty.png">
@@ -42,7 +42,9 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Učitavanje...</span>
+        </div>
     </div>
     <!-- Spinner End -->
 
@@ -58,9 +60,9 @@
                 <!-- Adresa -->
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <i class="fa fa-map-marker-alt text-primary me-2" aria-hidden="true"></i>
-                    <a href="https://www.google.com/maps/place/Franša+De+Perea+14,+Kru%C5%A1evac,+Serbia/"
-                        target="_blank" rel="noopener noreferrer" class="text-dark" style="text-decoration: none;">
-                        Fransa De Perea 14, 37000 Kruševac
+                    <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66" target="_blank" rel="noopener noreferrer"
+                        class="text-dark" style="text-decoration: none;">
+                        Fransa De Perea 18, 37000 Kruševac
                     </a>
                 </div>
                 <!-- E-mail -->
@@ -114,13 +116,13 @@
 
                 <!-- Navigation -->
                 <div class="navbar-nav me-auto">
-                    <a href="index.html" class="nav-item nav-link active">Početna</a>
+                    <a href="index.html" class="nav-item nav-link">Početna</a>
                     <a href="about.html" class="nav-item nav-link">O Nama</a>
 
                     <div class="nav-item dropdown">
                         <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Usluge</a>
                         <div class="dropdown-menu fade-up m-0">
-                            <a href="service.html#grundreinigung" class="dropdown-item">Generalno & Građevinsko
+                            <a href="service.html#grundreinigung" class="dropdown-item">Generalno & građevinsko
                                 čišćenje</a>
                             <a href="service.html#fenster-fassade" class="dropdown-item">Pranje stakala & fasada</a>
                             <a href="service.html#hotel-kueche" class="dropdown-item">Hoteli & kuhinje</a>
@@ -158,8 +160,11 @@
                     </div>
                     <div class="ms-3">
                         <p class="mb-1 text-white">Kontakt</p>
-                        <h5 class="m-0"><a href="tel:+43123456789" class="text-secondary text-decoration-none">+43 123
-                                456 789</a></h5>
+                        <h5 class="m-0">
+                            <a href="tel:+43123456789" class="text-secondary text-decoration-none">
+                                +43 123 456 789
+                            </a>
+                        </h5>
                     </div>
                 </div>
 
@@ -168,10 +173,9 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Page Header -->
     <div class="container-fluid page-header-about page-header mb-5 py-5">
-        <div class="container text-center">
+        <div class="container">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Impresum</h1>
         </div>
     </div>
@@ -182,102 +186,234 @@
 
         <h2 class="mb-4">Impresum</h2>
 
-        <h3>Podaci o kompaniji</h3>
-        <p><strong>Kufsteiner Denkmal-, Fassaden- und Gebäudereinigung GmbH</strong><br>
-            Kaiserjägerstraße 26, 6330 Kufstein, Austrija<br>
+        <!-- Austrijska kompanija -->
+        <h3>Podaci o kompaniji (Austrija)</h3>
+        <p>
+            <strong>Kufsteiner Denkmal-, Fassaden- und Gebäudereinigung GmbH</strong><br>
+            Kaiserjägerstraße 26<br>
+            6330 Kufstein, Austrija<br>
             Telefon: <a href="tel:+43537265586">+43 5372 65586</a><br>
             Email: <a href="mailto:Veselinovic@kufnet.at">Veselinovic@kufnet.at</a>
         </p>
 
-        <p><strong>UID broj:</strong> ATU 65163538<br>
-            <strong>Pravna forma:</strong> GmbH (doo)<br>
-            <strong>Firmenbuch:</strong> 333706w<br>
+        <p>
+            <strong>Puno ime firme:</strong> Kufsteiner Denkmal-, Fassaden- und Gebäudereinigung GmbH<br>
+            <strong>Pravna forma:</strong> Gesellschaft mit beschränkter Haftung (GmbH)<br>
+            <strong>Firmenbuch broj:</strong> 333706w<br>
             <strong>Nadležni sud:</strong> Landesgericht Innsbruck<br>
-            <strong>Direktor:</strong> Radoslava Veselinovic
+            <strong>UID broj (PDV):</strong> ATU 65163538<br>
+            <strong>Zastupnik / direktor:</strong> Radoslava Veselinovic
         </p>
 
-        <h3>Delatnost</h3>
-        <p>Profesionalne usluge čišćenja objekata, fasada, spomenika i industrijskih površina.</p>
+        <h3>Delatnost i članstva</h3>
+        <p>
+            <strong>Delatnost:</strong> čišćenje spomenika, fasada i objekata (Gebäudereinigung).<br>
+            <strong>Član:</strong> Privredna komora Tirol (Wirtschaftskammer Tirol), odsek za hemijsku industriju
+            i delatnost čišćenja objekata.<br>
+            <strong>Nadzorni organ (Austrija):</strong> Bezirkshauptmannschaft Kufstein.<br>
+            <strong>Primjenjivi propisi:</strong> Gewerbeordnung 1994 (GewO), dostupno na
+            <a href="https://www.ris.bka.gv.at" target="_blank" rel="noopener">www.ris.bka.gv.at</a>.
+        </p>
 
-        <h3>Odricanje od odgovornosti</h3>
-        <p>Sadržaj na ovoj stranici kreiran je sa pažnjom, ali ne garantujemo potpunu tačnost i ažurnost.</p>
+        <!-- Srpsko preduzeće -->
+        <h3>Podaci o preduzeću u Republici Srbiji</h3>
+        <p>
+            <strong>KUFSTEINER-ČIŠĆENJE FASADA I GRADA EXPORT-IMPORT D.O.O. KRUŠEVAC</strong><br>
+            Fransa De Perea 18<br>
+            37000 Kruševac, Republika Srbija<br>
+            Telefon (Srbija): <a href="tel:+381601234567">+381 60 1234567</a><br>
+            Email: <a href="mailto:info@kufsteiner-reinigung.at">info@kufsteiner-reinigung.at</a>
+        </p>
+        <p>
+            <strong>Pravna forma:</strong> društvo sa ograničenom odgovornošću (d.o.o.)<br>
+            <strong>Matični broj / PIB:</strong> upisati prema zvaničnim podacima iz APR-a<br>
+            <em>Napomena: molimo vlasnika sajta da ovde dopuni tačne brojeve matičnog broja i PIB-a.</em>
+        </p>
+
+        <h3>Odgovorno lice za sadržaj sajta</h3>
+        <p>
+            Za sadržaj na ovom veb-sajtu u smislu važećih propisa odgovorno je lice ovlašćeno za zastupanje
+            navedenih društava.
+        </p>
+
+        <h3>Odricanje od odgovornosti (Disclaimer)</h3>
+        <p>
+            Sadržaj ove internet stranice pripremljen je sa posebnom pažnjom. Ipak, ne preuzimamo odgovornost za
+            potpunost, tačnost i ažurnost objavljenih informacija. Upotreba sadržaja vrši se isključivo na sopstvenu
+            odgovornost korisnika.
+        </p>
+        <p>
+            Zadržavamo pravo izmene, dopune ili brisanja delova stranice ili celokupne ponude bez posebne najave,
+            kao i privremenog ili trajnog povlačenja sajta sa interneta.
+        </p>
+
+        <h3>Odgovornost za eksterne linkove</h3>
+        <p>
+            Naš veb-sajt može sadržati linkove ka sajtovima trećih lica („eksterni linkovi“). Na sadržaj tih sajtova
+            nemamo nikakav uticaj. Za navedene sadržaje uvek je odgovoran odgovarajući ponuđač ili operater stranice.
+            U trenutku postavljanja linkova izvršena je provera eventualnih povreda zakona; nezakonit sadržaj u tom
+            trenutku nije bio prepoznatljiv.
+        </p>
+        <p>
+            Trajna kontrola sadržaja povezanih stranica nije razumna bez konkretnih naznaka o kršenju zakona.
+            U slučaju da postanemo svesni takvog kršenja, dotični linkovi biće odmah uklonjeni.
+        </p>
 
         <h3>Autorska prava</h3>
-        <p>Svi sadržaji, tekstovi, slike i grafike zaštićeni su autorskim pravima. Zabranjena je reprodukcija bez
-            saglasnosti vlasnika.</p>
+        <p>
+            Sadržaji objavljeni na ovoj stranici (tekstovi, fotografije, grafike, logotipi, dizajn) podložni su zaštiti
+            autorskih i srodnih prava. Svako dalje korišćenje izvan granica dopuštenih zakonom (posebno umnožavanje,
+            distribucija, javno saopštavanje ili obrada) zahteva prethodnu pisanu saglasnost nosioca prava.
+        </p>
+        <p>
+            Dozvoljeno je preuzimanje i štampanje sadržaja isključivo za privatnu, nekomercijalnu upotrebu.
+        </p>
 
         <h3>Korišćene slike</h3>
-        <p>Slike potiču sa Pexels i Pixabay — besplatne za komercijalnu upotrebu.</p>
+        <p>
+            Slike i fotografije na ovom sajtu delom potiču sa platformi
+            <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a> i
+            <a href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a>, i označene su kao besplatne
+            za komercijalnu upotrebu bez navođenja autora, u skladu sa njihovim uslovima korišćenja.
+        </p>
 
         <h3>Online rešavanje sporova (EU)</h3>
-        <p><a href="https://ec.europa.eu/odr" target="_blank" rel="noopener">https://ec.europa.eu/odr</a></p>
+        <p>
+            Evropska komisija obezbeđuje platformu za vansudsko rešavanje sporova potrošača (ODR platforma) koju možete
+            naći na sledećem linku:
+            <a href="https://ec.europa.eu/odr" target="_blank" rel="noopener">https://ec.europa.eu/odr</a>.
+        </p>
+
+        <h3>Napomena o rodno neutralnom jeziku</h3>
+        <p>
+            Radi lakšeg čitanja, na nekim mestima se koristi samo muški ili ženski gramatički rod. Sve formulacije se
+            podrazumevano odnose na sva lica, bez obzira na pol i rodni identitet.
+        </p>
+
+        <p class="mt-4 text-muted">
+            Ovaj impresum predstavlja opštu informativnu osnovu i ne zamenjuje individualni pravni savet.
+            Pre objavljivanja preporučuje se provera od strane pravnog stručnjaka.
+        </p>
 
     </div>
 
-    <!-- Footer -->
-    <div class="container-fluid bg-dark text-light footer pt-5">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
-
             <div class="row g-5">
-
+                <!-- Adresa -->
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Adresa</h4>
-                    <p><i class="fa fa-map-marker-alt me-3"></i>Kaiserjäger Str. 26, Kufstein</p>
-                    <p><i class="fa fa-phone-alt me-3"></i><a href="tel:+43123456789"
-                            class="text-light text-decoration-none">+43 123 456 789</a></p>
-                    <p><i class="fa fa-envelope me-3"></i><a href="mailto:info@kufsteiner-reinigung.at"
-                            class="text-light text-decoration-none">info@kufsteiner-reinigung.at</a></p>
+                    <p class="mb-2">
+                        <i class="fa fa-map-marker-alt me-3"></i>
+                        <a href="https://maps.app.goo.gl/fcvZ81ozBefVkur66" target="_blank" rel="noopener noreferrer"
+                            class="text-light" style="text-decoration: none;">
+                            Fransa De Perea 18, 37000 Krusevac
+                        </a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-phone-alt me-3"></i>
+                        <a href="tel:+43123456789" class="text-light" style="text-decoration: none;">+43 123 456 789</a>
+                    </p>
+                    <p class="mb-2">
+                        <i class="fa fa-envelope me-3"></i>
+                        <a href="mailto:info@kufsteiner-reinigung.at" class="text-light"
+                            style="text-decoration: none;">info@kufsteiner-reinigung.at</a>
+                    </p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-outline-light btn-social rounded-circle mx-1 shadow-sm"
+                            href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+                            style="width: 40px; height: 40px; transition: background-color 0.3s, color 0.3s;">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
                 </div>
-
+                <!-- Radno vreme -->
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Radno vreme</h4>
-                    <p>Pon–Pet: 8:00 – 17:00</p>
-                    <p>Sub–Ned: Zatvoreno</p>
+                    <p class="mb-0">Pon–Pet: 8:00 - 17:00</p>
+                    <p class="mb-0">Sub–Ned: zatvoreno</p>
                 </div>
-
+                <!-- Linkovi -->
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Linkovi</h4>
-                    <a class="btn btn-link" href="impressum.html">Impresum</a>
-                    <a class="btn btn-link" href="datenschutz.html">Politika Privatnosti</a>
+                    <a class="btn btn-link" href="impressum.html">Impressum</a>
+                    <a class="btn btn-link" href="datenschutz.html">Politika privatnosti</a>
                     <a class="btn btn-link" href="contact.html">Kontakt</a>
                 </div>
-
+                <!-- Logo i slogan -->
                 <div class="col-lg-3 col-md-6 text-center">
-                    <img src="img/cleaning-tools.gif" style="max-width: 150px;" class="mb-4" alt="Čišćenje Krusevac">
-                    <p class="text-light">Čistoća koja traje — od 2006.</p>
+                    <a href="index.html" class="d-block mb-4">
+                        <img src="img/cleaning-tools.gif"
+                            alt="Kufsteiner Denkmal-Fassaden- und Gebäudereinigung GmbH Logo" style="max-width: 150px;">
+                    </a>
+                    <p class="text-light font-italic">Čistoća koja čuva istoriju od 2006.</p>
                 </div>
-
             </div>
-
         </div>
-
-        <div class="container text-center">
-            © 2025 Kufsteiner Gebäudereinigung GmbH — Sva prava zadržana.
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        © <a class="border-bottom" href="index.html">Kufsteiner Gebäudereinigung GmbH</a>,
+                        All Rights Reserved 2025.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Designed by <a class="border-bottom" href="https://www.dimit.cc" target="_blank"
+                            rel="noopener noreferrer">dimit</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary back-to-top">
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top">
         <i class="bi bi-arrow-up"></i>
     </a>
 
     <!-- Cookie Banner -->
     <div id="cookie-banner"
         class="cookie-banner fixed-bottom bg-dark text-light p-3 d-flex justify-content-between align-items-center"
-        style="display: none;">
+        style="z-index: 1000; display: none;">
         <div>
-            Ovaj sajt koristi kolačiće radi funkcionalnosti i analitike. Više informacija u
+            Ovaj sajt koristi kolačiće za personalizaciju sadržaja, analitiku i funkcije društvenih mreža.
+            Više informacija možete pronaći u našoj
             <a href="datenschutz.html" class="text-primary">politici privatnosti</a>.
         </div>
-        <div>
-            <button id="accept-cookies" class="btn btn-primary btn-sm me-2">Prihvatam</button>
-            <button id="reject-cookies" class="btn btn-outline-primary btn-sm">Odbijam</button>
+        <div class="d-flex align-items-center" style="gap: 10px;">
+            <button id="accept-cookies" class="btn btn-primary btn-sm me-2">Prihvati</button>
+            <button id="reject-cookies" class="btn btn-outline-primary btn-sm ms-2">Odbij</button>
         </div>
     </div>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/tempus-dominus.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/cookie-mailer.js"></script>
 
