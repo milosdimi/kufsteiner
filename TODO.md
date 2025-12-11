@@ -82,12 +82,12 @@
 
 ## 6. SEO (nicht CEO 😉)
 
-- [ ] **Meta-Daten**
-  - [ ] `<title>`-Tags pro Seite optimieren (SR, DE, EN)
-  - [ ] `<meta name="description">` sinnvoll & eindeutig pro Seite
-  - [ ] Keywords grob passend (keine Keyword-Spam, aber relevante Begriffe:
+- [x] **Meta-Daten**
+  - [x] `<title>`-Tags pro Seite optimieren (SR, DE, EN)
+  - [x] `<meta name="description">` sinnvoll & eindeutig pro Seite
+  - [x] Keywords grob passend (keine Keyword-Spam, aber relevante Begriffe:
         „Gebäudereinigung Kufstein“, „Fassadenreinigung“, „Unterhaltsreinigung“, „Trockeneisstrahlen“ usw.)
-- [ ] **Heading-Struktur**
+- [x] **Heading-Struktur**
   - [ ] Pro Seite nur **eine** `<h1>`
   - [ ] Sinnvolle `<h2>`, `<h3>`-Struktur
 - [ ] **Open Graph & Social**
@@ -98,14 +98,14 @@
 
 ## 7. Technisches (sitemap, robots, 404)
 
-- [ ] **`sitemap.xml` erstellen**
-  - [ ] Alle SR-Seiten eintragen
-  - [ ] Alle DE-Seiten eintragen
-  - [ ] Alle EN-Seiten eintragen
-- [ ] **`robots.txt` erstellen**
-  - [ ] `User-agent: *`
-  - [ ] `Allow: /`
-  - [ ] `Sitemap: https://deine-domain.xy/sitemap.xml`
+- [x] **`sitemap.xml` erstellen**
+  - [x] Alle SR-Seiten eintragen
+  - [x] Alle DE-Seiten eintragen
+  - [x] Alle EN-Seiten eintragen
+- [x] **`robots.txt` erstellen**
+  - [x] `User-agent: *`
+  - [x] `Allow: /`
+  - [x] `Sitemap: https://deine-domain.xy/sitemap.xml`
 - [x] **404-Seite**
   - [x] `404.html` gestalten (auf SR, DE, EN oder neutral)
   - [x] Link zurück zur Startseite(n)
