@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap für alle Sprachversionen
+Sitemap: https://kufsteiner.rs/sitemap.xml
+
+# Sicherheitsregeln (empfohlen)
+# Blockiere Admin-/System-Verzeichnisse, falls irgendwann vorhanden
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Crawling optimieren
+# (Suchtmaschinen dürfen unendlich scrollen)
+Crawl-delay: 1
