@@ -6,11 +6,11 @@
 
 ## 1. Stammdaten & Inhalte prüfen
 
-- [ ] **Firmendaten final eintragen**
-  - [ ] Firmenname (genau wie im Firmenbuch)
-  - [ ] Adresse
-  - [ ] Telefonnummer(n)
-  - [ ] Allgemeine E-Mail-Adresse (z. B. info@… / kontakt@…)
+- [x] **Firmendaten final eintragen**
+  - [x] Firmenname (genau wie im Firmenbuch)
+  - [x] Adresse
+  - [x] Telefonnummer(n)
+  - [x] Allgemeine E-Mail-Adresse (z. B. info@… / kontakt@…)
 - [ ] **Texte auf SR & DE final gegenlesen**
   - [ ] Rechtschreibung / Grammatik
   - [ ] Einheitliche Schreibweise von „Kufsteiner Denkmal-, Fassaden- und Gebäudereinigung GmbH“
@@ -20,29 +20,29 @@
 
 ## 2. Impressum
 
-- [ ] **Impressum-Daten korrekt eintragen (DE & SR)**
-  - [ ] Firmenbuchnummer
-  - [ ] Firmenbuchgericht
-  - [ ] UID-Nummer
-  - [ ] Geschäftsführung
-  - [ ] Gewerbeberechtigung / Unternehmensgegenstand
-  - [ ] Kammerzugehörigkeit
-- [ ] Verlinkung:
-  - [ ] Footer-Link „Impressum“ zeigt auf die richtige Datei (DE, SR, später EN)
-  - [ ] Sprache in `lang=""` Attribut anpassen (z. B. `lang="sr"`)
+- [x] **Impressum-Daten korrekt eintragen (DE & SR)**
+  - [x] Firmenbuchnummer
+  - [x] Firmenbuchgericht
+  - [x] UID-Nummer
+  - [x] Geschäftsführung
+  - [x] Gewerbeberechtigung / Unternehmensgegenstand
+  - [x] Kammerzugehörigkeit
+- [x] Verlinkung:
+  - [x] Footer-Link „Impressum“ zeigt auf die richtige Datei (DE, SR, später EN)
+  - [x] Sprache in `lang=""` Attribut anpassen (z. B. `lang="sr"`)
 
 ---
 
 ## 3. Datenschutzerklärung
 
-- [ ] **Datenschutzerklärung final prüfen (DE & SR)**
-  - [ ] Kontaktdaten identisch mit Impressum
-  - [ ] Verweis auf **österreichische** Datenschutzbehörde korrekt
-  - [ ] Alle eingesetzten Dienste auch wirklich verwendet?  
+- [x] **Datenschutzerklärung final prüfen (DE & SR)**
+  - [x] Kontaktdaten identisch mit Impressum
+  - [x] Verweis auf **österreichische** Datenschutzbehörde korrekt
+  - [x] Alle eingesetzten Dienste auch wirklich verwendet?  
         (z. B. Google Analytics nur drin lassen, wenn wirklich eingebunden)
-- [ ] Cookie-Hinweise passen:
-  - [ ] Text im Cookie-Banner zur Datenschutzerklärung passend
-  - [ ] Link im Banner zeigt auf die korrekte `datenschutz.html` (DE & SR)
+- [x] Cookie-Hinweise passen:
+  - [x] Text im Cookie-Banner zur Datenschutzerklärung passend
+  - [x] Link im Banner zeigt auf die korrekte `datenschutz.html` (DE & SR)
 
 ---
 
@@ -88,11 +88,11 @@
   - [x] Keywords grob passend (keine Keyword-Spam, aber relevante Begriffe:
         „Gebäudereinigung Kufstein“, „Fassadenreinigung“, „Unterhaltsreinigung“, „Trockeneisstrahlen“ usw.)
 - [x] **Heading-Struktur**
-  - [ ] Pro Seite nur **eine** `<h1>`
-  - [ ] Sinnvolle `<h2>`, `<h3>`-Struktur
-- [ ] **Open Graph & Social**
-  - [ ] `og:title`, `og:description`, `og:image` für Startseite setzen
-  - [ ] Favicon passt (trusty.png etc.)
+  - [x] Pro Seite nur **eine** `<h1>`
+  - [x] Sinnvolle `<h2>`, `<h3>`-Struktur
+- [x] **Open Graph & Social**
+  - [x] `og:title`, `og:description`, `og:image` für Startseite setzen
+  - [x] Favicon passt (trusty.png etc.)
 
 ---
 
@@ -118,12 +118,12 @@
 - [x] Bilder checken:
   - [x] Möglichst `.webp` nutzen (ist schon teilweise drin – Rest nachziehen)
   - [x] Bildgrößen optimieren (keine 5 MB Monster)
-  - [ ] `alt`-Texte überall vorhanden (SEO + Barrierefreiheit)
-- [ ] Lazy Loading (optional nice-to-have)
-  - [ ] `<img loading="lazy" ...>` bei Bildern, die nicht „above the fold“ sind
-- [ ] Video:
-  - [ ] `booking.mp4 / .webm` Größe prüfen
-  - [ ] Fallback-Bild vorhanden (ist schon drin, ggf. eigenes Branding-Bild)
+  - [x] `alt`-Texte überall vorhanden (SEO + Barrierefreiheit)
+- [x] Lazy Loading (optional nice-to-have)
+  - [x] `<img loading="lazy" ...>` bei Bildern, die nicht „above the fold“ sind
+- [x] Video:
+  - [x] `booking.mp4 / .webm` Größe prüfen
+  - [x] Fallback-Bild vorhanden (ist schon drin, ggf. eigenes Branding-Bild)
 
 ---
 
