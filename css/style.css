@@ -38,6 +38,20 @@
     height: 3rem;
 }
 
+/** Logo ***/
+.logo-kufsteiner {
+    max-height: 71px;
+    height: auto;
+    width: auto;
+}
+
+/* Wenn du magst: für sehr kleine Screens leicht kleiner */
+@media (max-width: 576px) {
+    .logo-kufsteiner {
+        max-height: 44px;
+    }
+}
+
 
 
 /*** Button ***/
