@@ -9,6 +9,16 @@
         }
     });
 
+    // Copyright Jahr dynamisch
+    const yearEl = document.getElementById("copyright-year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Datum-Feld: kein Datum in der Vergangenheit
+    const dateInput = document.getElementById("fuerWann");
+    if (dateInput) {
+        dateInput.min = new Date().toISOString().split("T")[0];
+    }
+
     // Initiate WOW.js
     if (typeof WOW !== "undefined") {
         new WOW().init();
@@ -110,7 +120,7 @@
                         observer.disconnect();
                     }
                 },
-                { threshold: 0.9 }
+                { threshold: 0.3 }
             );
             observer.observe(el);
         }
