@@ -711,6 +711,7 @@
 }
 
 .video h1,
+.video h2,
 .video h3 {
     position: relative;
     z-index: 1;
@@ -908,6 +909,7 @@
 .service-icon-circle {
     width: 75px;
     height: 75px;
+    margin: 0 auto;
 }
 
 /*** Testimonial ***/
