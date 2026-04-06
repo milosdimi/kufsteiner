@@ -1,107 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- SR (Hauptsprache) -->
+  <url>
+    <loc>https://kufsteiner.rs/</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/about.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/service.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/contact.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/impressum.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/datenschutz.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.40</priority>
+  </url>
 
-<url>
-  <loc>https://kufsteiner.rs/</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/index.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/de/index.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/en/index.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/about.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/service.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/contact.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/impressum.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/datenschutz.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/de/about.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/de/service.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/de/contact.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/de/impressum.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/de/datenschutz.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/en/about.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/en/service.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/en/contact.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/en/impressum.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://kufsteiner.rs/en/datenschutz.html</loc>
-  <lastmod>2025-12-11T10:06:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <!-- DE -->
+  <url>
+    <loc>https://kufsteiner.rs/de/index.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/de/about.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/de/service.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/de/contact.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/de/impressum.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/de/datenschutz.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.40</priority>
+  </url>
 
+  <!-- EN -->
+  <url>
+    <loc>https://kufsteiner.rs/en/index.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/en/about.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/en/service.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/en/contact.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/en/impressum.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.40</priority>
+  </url>
+  <url>
+    <loc>https://kufsteiner.rs/en/datenschutz.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.40</priority>
+  </url>
 
 </urlset>
